@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="main.css">
+    <script src="https://kit.fontawesome.com/33f28befd6.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap" rel="stylesheet">
+
+
+
+    <title>Portfolio</title>
+</head>
+
+<body>
+
+    <!-- navbar -->
+
+    <div id="navbar">
+
+
+        <div class="left">
+            <i class="fa-solid fa-code fa-beat fa-2xs" style="color: #f4f6fb; size: 1.5rem;"></i> Aman's Portfolio
+        </div>
+
+        <div class="right">
+
+            <li><a onclick="contact()">Contact Me</a></li>
+            <li><a onclick="about()">About</a></li>
+            <li><a onclick="projects()">Projects</a></li>
+            <li><a href="#">Home</a></li>
+        </div>
+
+    </div>
+
+
+    <!-- Main content -->
+
+
+    <section class="content">
+        <div class="leftcontent">
+            Hello I'am <span class="white" style="color: burlywood; font-family: 'Poppins', sans-serif;">Aman
+                Kumar</span>
+            <div>and I am a Backend Developer</div>
+            <button href="./Aman_resume.pdf"><i class="fa fa-download"></i><span> See Resume</span> </button>
+            <div style="font-size: 1.5rem;">
+                <p>To let me know more about me <br> Connect with me</p>
+
+                <ul class="social">
+                    <li><a href="https://www.linkedin.com/in/aman-kumar-531bb71a0/" class="fa fa-linkedin"
+                            aria-hidden="true"></a></li>
+                    <li><a href="https://github.com/aman4282" class="fa fa-github" aria-hidden="true"></a></li>
+                    <li><a class="fa fa-facebook" aria-hidden="true"></a></li>
+                    <li><a class="fa fa-instagram" aria-hidden="true"></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="rightcontent">
+        </div>
+    </section>
+
+    <!-- Project section -->
+
+
+    <h1 style="text-align: center;  color: burlywood; text-decoration: underline;">Projects<br><br>Coming soon....</h1>
+    <section class="content" id="project">
+
+        <div class="ProjectsLeft"></div>
+        <div class="Projectsright">
+        </div>
+
+    </section>
+
+
+
+    <!-- About Section -->
+
+
+    <h1 style="text-align: center;  color: burlywood; text-decoration: underline;">About</h1>
+    <section class="content" id="about">
+
+        <div class="leftabout">
+            <li>
+                <p>
+                    Hi My name is Aman Kumar am from bihar but currently residing in bangalore.<br>
+                    I have done my B.E from BNMIT in Electronics and communication Branch.<br><br></p>
+                <p>
+                    After that I joined Yellow.ai as Software Enginner intern after serving for 3 months I got
+                    Converted as full time employee for the role Associate Software Enginner.<br>
+                    I have worked with different- differnts client like dr. Mohan, Adani etc and developed chatbots for
+                    there organization using node.js ,javscript and RESTAPIs.<br><br></p>
+                <p>
+                    Apart from this i love to travel and explore new place as this makes me refersh and provide energy
+                    to
+                    move forward.</p>
+
+
+                </p>
+            </li>
+        </div>
+        <div class="rightabout">
+
+        </div>
+
+    </section>
+
+    <br><br><br>
+    <!-- Contact section -->
+
+    <h1 style="text-align: center;  color: burlywood; text-decoration: underline;">Contact Me</h1>
+    <section class="content" id="contact">
+
+        <div class="contentleft">
+            Feel free to drop <span class="white"
+                style="color: burlywood; font-family: 'Poppins', sans-serif; font-size:  1.5rem;">EMail</span>
+            <div>Any concern or suggestion will be appreciated</div>
+            <br><br>
+            Ping on <i class="fa fa-volume-control-phone" aria-hidden="true"></i>
+            <span class="white" style="color: burlywood; font-family: 'Poppins', sans-serif; font-size:  1.5rem;">+91
+                8271931942</span>
+            <div>for quick one to one discussion.</div>
+        </div>
+        <div id="contactright">
+            <form method="post" onsubmit="myfuction()" action="http://127.0.0.1:5600/form" netlify>
+                <ul>
+                    <li><input type="text" id="name" placeholder="Name" name="name" required></li>
+
+                    <li><input type="email" placeholder="Email" name="email" required></li>
+
+                    <li><textarea rows="10" cols="70" style="width: 100%;" placeholder="Message" name="message"
+                            required></textarea>
+                    </li>
+                    <script src="./app.js"></script>
+
+                    <button class="submit" type="submit">Submit</button>
+                    <!-- <script>
+                        function myfuction() {
+                            let name = document.forms["myForm"]["name"].value;
+                            console.log("in form")
+                            console.log(name)
+                        }
+                    </script> -->
+                </ul>
+            </form>
+        </div>
+    </section>
+
+
+    <!-- <footer>
+        <i class="fa-duotone fa-code fa-beat-fade"></i>
+        <h1>this is the footer</h1>
+    </footer> -->
+
+
+
+
+    <script src="main.js">
+    </script>
+
+</body>
+
+</html>

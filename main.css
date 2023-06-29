@@ -1,0 +1,421 @@
+html,
+body {
+    width: 100%;
+    scroll-behavior: smooth;
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+    background-color: rgb(0, 4, 39)
+}
+
+#navbar {
+    font-family: 'Poppins', sans-serif;
+    background: rgb(30, 48, 80);
+    text-decoration: none;
+    position: fixed;
+    top: -60px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    transition: top 0.3s;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+    float: right;
+
+}
+
+li a {
+    text-decoration: none;
+    display: block;
+    color: burlywood;
+    text-align: center;
+    font-size: 20px;
+    padding: 14px 40px;
+    text-decoration: none;
+}
+
+.content {
+
+    background-color: rgb(0, 4, 39);
+    height: 730px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.left {
+    color: burlywood;
+    font-size: 2rem;
+}
+
+.leftcontent {
+    margin: 250px 0;
+    color: aliceblue;
+    font-size: 3rem;
+
+}
+
+.rightcontent {
+    width: 50%;
+    height: 650px;
+    background-image: url(./bg.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+
+}
+
+.social {
+
+    margin-left: -35px;
+    display: flex;
+    padding: 14px 40px;
+}
+
+.social a {
+    color: orangered;
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+    width: 10px;
+    height: 0px;
+
+
+}
+
+button {
+    background-color: darkseagreen;
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 10px 10px;
+}
+
+button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+button span:after {
+    content: '\00bb';
+
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+button:hover span {
+    padding-right: 25px;
+}
+
+button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.social li:hover {
+    opacity: 0.7;
+
+
+    background-color: rgb(58, 51, 51);
+}
+
+.social li {
+    margin: 0px 20px 0px 0;
+    background-color: white;
+
+    border-radius: 20px 20px;
+
+    padding: 10px;
+}
+
+#contactright ul {
+    display: inline-grid;
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 10px 10px;
+}
+
+#contactright li {
+
+    padding: 20px;
+}
+
+input {
+    border-top: 0;
+    width: 100%;
+    height: 25px;
+}
+
+.submit {
+    text-align: center;
+    margin-left: 10px;
+
+    width: 40%;
+}
+
+.contentleft {
+    margin: 50px 0;
+    color: aliceblue;
+    font-size: 2rem;
+}
+
+#contact {
+    margin-top: 100px;
+}
+
+.rightabout {
+
+
+
+    width: 40%;
+
+    height: 550px;
+    background-image: url(./emp2-removebg-preview.png);
+    background-size: cover;
+
+    background-repeat: no-repeat;
+
+}
+.leftabout{
+    width: 50%;
+    margin-left: 10px;
+    margin-top: 40px;
+    text-align: center;
+
+    color: aliceblue;
+
+
+}
+.leftabout p{
+    font-size: 1.5rem;
+
+
+}
+
+
+.leftabout li {
+    font-family: 'Poppins';
+    text-align: initial;
+    font-size: 1.3rem;
+    list-style: none;
+    float: right;
+
+}
+
+#navbar li:hover {
+    text-decoration: underline;
+    color: aliceblue;
+    cursor: pointer;
+
+
+}
+
+
+@media only screen and (max-width: 430px) {
+
+    #navbar {
+        font-family: 'Poppins', sans-serif;
+        background: rgb(30, 48, 80);
+        text-decoration: none;
+        position: fixed;
+        top: -60px;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+        transition: top 0.3s;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .right{
+        width: 60%;
+    }
+
+
+    li a {
+
+        text-align: center;
+        font-size: 6px;
+        padding: 7px 10px;
+        text-decoration: none;
+    }
+
+    .left {
+        color: burlywood;
+        font-size: .5rem;
+    }
+
+    .leftcontent {
+        font-size: 2rem;
+        line-height: 2rem;
+        width: 50%;
+        margin-left: 10px;
+        margin-top: 120px;
+
+    }
+
+    .rightcontent {
+        margin-top: 40px;
+        width: 58%;
+        height: 200px;
+        background-image: url(./bg.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+
+    }
+
+    .leftcontent {
+        font-size: .5rem;
+        line-height: 1rem;
+        width: 30%;
+        margin-left: 0px;
+        margin-top: 60px;
+
+    }
+    .leftcontent p{
+        font-size: .5rem;
+      
+
+    }
+
+    .leftcontent button {
+        font-size: .5rem;
+    }
+
+    .social a {
+        color: orangered;
+        text-align: center;
+
+        font-size: 10px;
+        width: 5px;
+        height: 0px;
+
+
+    }
+
+    .social li {
+        margin: 0px 5px 0px 0;
+        background-color: white;
+
+        border-radius: 15px 15px;
+
+        padding: 4px;
+    }
+
+    h1{
+        font-size: 0.5rem;
+        
+    }
+    .content{
+        height: 450px;
+    }
+    .leftabout{
+        width: 40%;
+        margin-left: 10px;
+        margin-top: 40px;
+        text-align: center;
+    
+        color: aliceblue;
+    
+
+    }
+    .leftabout li{
+        height: 300px;
+     
+    
+
+    }
+    .leftabout p{
+        font-size: .5rem;
+  
+
+    }
+    .rightabout{
+        margin-top: 30px;
+        width: 60%;
+        height: 215px;
+        background-image: url(./emp2-removebg-preview.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    #contactright ul {
+        display: inline-grid;
+        font-size: 10px;
+        margin-top: 5px;
+        padding: 10px 5px;
+    }
+    
+    #contactright li {
+    
+        padding: 5px;
+    }
+    #contact {
+
+        margin-top: 250px;
+        
+    }
+    input {
+        border-top: 0;
+        width: 100%;
+        height: 25px;
+    }
+    
+    .submit {
+        text-align: center;
+        margin-left: 10px;
+        font-size: .5rem;
+        width: 30%;
+    }
+    .submit textarea{
+        height: 100px;
+    }
+    
+    .contentleft{
+        position: absolute;
+        color: aliceblue;
+        text-align: center;
+        margin-top: -220px;
+        font-size: 1.1rem;
+    }
+    .contentleft span{
+       
+        font-size: 1.1rem;
+    }
+    
+
+}
+
+@media only screen and (max-width: 1024px) and (min-width : 600px) {
+
+    /* For desktop: */
+    .leftcontent {
+        font-size: 2rem;
+        line-height: 2rem;
+        width: 50%;
+        margin-left: 10px;
+        margin-top: 120px;
+
+    }
+
+    .rightcontent {
+        width: 50%;
+        height: 550px;
+        background-image: url(./bg.jpg);
+        background-size: cover;
+        background-position: top;
+        background-repeat: no-repeat;
+
+    }
+
+}
