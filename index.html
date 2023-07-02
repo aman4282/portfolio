@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="Tablet.css">
+    <link rel="stylesheet" href="Laptop.css">
     <script src="https://kit.fontawesome.com/33f28befd6.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -31,7 +34,7 @@
 
             <li><a onclick="contact()">Contact Me</a></li>
             <li><a onclick="about()">About</a></li>
-            <li><a onclick="projects()">Projects</a></li>
+            <li><a onclick="projects()">Education</a></li>
             <li><a href="#">Home</a></li>
         </div>
 
@@ -42,14 +45,14 @@
 
 
     <section class="content">
-        <div class="leftcontent">
+        <div class="leftcontent" >
             Hello I'am <span class="white" style="color: burlywood; font-family: 'Poppins', sans-serif;">Aman
                 Kumar</span>
-            <div>and I am a Backend Developer</div>
+            <div class="typewriter"><p>and I am a Backend Developer.</p></div>
 
-            <button><a href="./Aman_resume.pdf" download="Aman_resume.pdf" style="color: black;"
-                Hello I'am <span style="color: burlywood; font-family: 'Poppins', sans-serif;"><i
-                        class="fa fa-download"></i><span> See Resume</span></a> </button>
+            <button><a href="./Aman_resume.pdf" download="Aman_resume.pdf" style="color: black;" Hello I'am <span
+                    style="color: burlywood; font-family: 'Poppins', sans-serif;"><i class="fa fa-download"> </i><span>
+                          Resume</span></a> </button>
             <div style="font-size: 1.5rem;">
                 <p>To let me know more about me <br> Connect with me</p>
 
@@ -67,24 +70,81 @@
         </div>
     </section>
 
-    <!-- Project section -->
+    <!-- Education section -->
+
+<div class ="edu">
+    <h1 style="text-align: center;  color: burlywood;">My Journey</h1>
+    <section id="Education">
+        <div class="Educationleft">
+            <h2>Experience</h2>
 
 
-    <h1 style="text-align: center;  color: burlywood; text-decoration: underline;">Projects<br><br>Coming soon....</h1>
-    <section class="content" id="project">
 
-        <div class="ProjectsLeft"></div>
-        <div class="Projectsright">
+            <div class="fulltime">
+                <div>
+                    <p><i class="fas fa-calendar"></i> Feb 2022-Mar 2023</p>
+                    <h1>Associate Software Enginner(Yellow.ai, Bengaluru)</h1>
+                    <h4>Yellow.ai is the World's Leading Conversational CX Automation
+                        Platform, recognized by
+                        Gartner, IDC & G2 Crowd as a leader. yellow.ai brings the best of AI and Human Intelligence
+                        together, to automate Customer Experience for large brands and enterprises.</h4><br>
+                   
+                        <li>• Implemented token-based authentication to perform the operations on
+                            application.<br>
+                        • Worked with software development and testing team members to design and
+                            develop robust solutions to meet client requirements for functionality,scalability
+                            and performance.<br>
+                        • Have good experience in building REST APIs using Express server, middlewares
+                            and NodeJs for interchanging and managing the data.<br>
+                        • Improved the old code by writing reusable components and removing
+                            redundancy.<br>
+                        • Strong understanding of promises, and async-await.<br>
+                        • Integrated third-party tools and components into applications<br>
+                        </li>
+                    
+                </div>
+            </div>
+            <div class="intern">
+                <div>
+                    <p><i class="fas fa-calendar"></i> Aug 2021-Feb 2022</p>
+                    <h1>Software Enginner(Intern,Yellow.ai)</h1>
+                   
+                        <li>• Provided support to pre-build ai chatbots and delivered the final product to end 
+                            customers within customer-prescribed timeframes<br>
+                            • Responsible for writing optimized and reusable Javascript code.<br>
+                        
+                        </li>
+                    
+                </div>
+            </div>
+
+
         </div>
+
+        <div class="Educationright" style="color: aliceblue; ">
+            <h2>Education</h2>
+            <div class="college">
+            <div>
+                <p><i class="fas fa-calendar"></i> 2017-2021</p>
+                <h1 style="color: aliceblue; ">B.N.M Insitute Of Technology(Bengaluru,karnataka)</h1>
+                <h4 style="color: aliceblue; ">Electronics and Communication Enginnering(ECE)</h4>
+                <p>• Completed my Bachelor of Enginnering(B.E) degree from BNMIT in year 2021. </p><br><br>
+            </div>
+
+            </div>
+
+        </div>
+
+
 
     </section>
 
-
+</div >
 
     <!-- About Section -->
+    
 
-
-    <h1 style="text-align: center;  color: burlywood; text-decoration: underline;">About</h1>
+    <h1 style="text-align: center; margin-top: 100px; color: burlywood;">About Me</h1>
     <section class="content" id="about">
 
         <div class="leftabout">
@@ -96,7 +156,7 @@
                     After that I joined Yellow.ai as Software Enginner intern after serving for 3 months I got
                     Converted as full time employee for the role Associate Software Enginner.<br>
                     I have worked with different- differnts client like dr. Mohan, Adani etc and developed chatbots for
-                    there organization using node.js ,javscript and RESTAPIs.<br><br></p>
+                    there organization using node.js ,Javascript and RESTAPIs.<br><br></p>
                 <p>
                     Apart from this i love to travel and explore new place as this makes me refersh and provide energy
                     to
@@ -114,8 +174,9 @@
 
     <br><br><br>
     <!-- Contact section -->
+    <div class="con">
 
-    <h1 style="text-align: center;  color: burlywood; text-decoration: underline;">Contact Me</h1>
+    <h1 style="text-align: center;  color: burlywood;">Contact Me</h1>
     <section class="content" id="contact">
 
         <div class="contentleft">
@@ -140,7 +201,7 @@
                     </li>
                     <script src="./app.js"></script>
 
-                    <button class="submit" type="submit">Submit</button>
+                    <button class="submit" type="submit">Let's Chat</button>
                     <!-- <script>
                         function myfuction() {
                             let name = document.forms["myForm"]["name"].value;
@@ -152,12 +213,16 @@
             </form>
         </div>
     </section>
+</div>
 
-
-    <!-- <footer>
-        <i class="fa-duotone fa-code fa-beat-fade"></i>
-        <h1>this is the footer</h1>
-    </footer> -->
+    <footer>
+    
+    <div>
+       <br>
+        <h3> Made with love by <span style="color: burlywood;  margin-left: 10px;"<i class="fa-solid fa-beat fa-2xs" style="color: #f4f6fb; size: 1.5rem;"></i> Aman Kumar</span></h3>
+    </div>
+    
+    </footer>
 
 
 

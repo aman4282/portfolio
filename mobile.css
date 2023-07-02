@@ -1,0 +1,265 @@
+@media only screen and (max-width: 430px) {
+
+    #navbar {
+        font-family: 'Poppins', sans-serif;
+        background: rgb(30, 48, 80);
+        text-decoration: none;
+        position: fixed;
+        top: -60px;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+        transition: top 0.3s;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .right{
+        width: 60%;
+    }
+
+
+    li a {
+
+        text-align: center;
+        font-size: 6px;
+        padding: 7px 10px;
+        text-decoration: none;
+    }
+
+    .left {
+        color: burlywood;
+        font-size: .5rem;
+    }
+
+    .leftcontent {
+        font-size: 2rem;
+        line-height: 2rem;
+        width: 50%;
+        margin-left: 10px;
+        margin-top: 120px;
+
+    }
+
+    .rightcontent {
+        margin-top: 40px;
+        width: 58%;
+        height: 200px;
+        background-image: url(./bg.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+
+    }
+
+    .leftcontent {
+        font-size: .5rem;
+        line-height: 1rem;
+        width: 30%;
+        margin-left: 0px;
+        margin-top: 60px;
+
+    }
+    .leftcontent p{
+        font-size: .5rem;
+      
+
+    }
+    button{
+        background-color: darkseagreen;
+        border-radius: 30px;
+      
+        padding: 5px 5px;
+    }
+
+    .leftcontent button {
+        font-size: .5rem;
+    }
+
+    .social a {
+        color: orangered;
+        text-align: center;
+
+        font-size: 10px;
+        width: 5px;
+        height: 0px;
+
+
+    }
+
+    .social li {
+        margin: 0px 5px 0px 0;
+        background-color: white;
+
+        border-radius: 15px 15px;
+
+        padding: 4px;
+    }
+
+    /* h1{
+        font-size: 0.5rem;
+        
+    } */
+    .content{
+        height: 350px;
+    }
+    #about {
+        margin-top: 20px;
+    }
+    .leftabout{
+        width: 40%;
+        margin-left: 10px;
+        margin-top: 20px;
+        text-align: center;
+    
+        color: aliceblue;
+    
+
+    }
+    .leftabout li{
+        height: 300px;
+     
+    
+
+    }
+    .leftabout p{
+        font-size: .5rem;
+  
+
+    }
+    .rightabout{
+        margin-top: 30px;
+        width: 60%;
+        height: 215px;
+        background-image: url(./emp2-removebg-preview.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    #contactright ul {
+        display: inline-grid;
+        font-size: 10px;
+        margin-top: 5px;
+        padding: 10px 5px;
+    }
+    
+    #contactright li {
+    
+        padding: 5px;
+    }
+    #contact {
+
+        margin-top: 250px;
+        
+    }
+    input {
+        border-top: 0;
+        width: 100%;
+        height: 25px;
+    }
+    
+    .submit {
+        text-align: center;
+        margin-left: 10px;
+        font-size: .5rem;
+        width: 30%;
+    }
+    .submit textarea{
+        height: 100px;
+    }
+    
+    .contentleft{
+        position: absolute;
+        color: aliceblue;
+        text-align: center;
+        margin-top: -220px;
+        font-size: 1.1rem;
+    }
+    .contentleft span{
+       
+        font-size: 1.1rem;
+    }
+    
+.typewriter p{
+    width: 105%;
+    color: blueviolet;
+    overflow: hidden; 
+    border-right: .1em solid white; /* The typwriter cursor */
+    white-space: nowrap; 
+    margin: 0 auto; 
+    
+    animation: 
+      typing 4s steps(40, end),
+      blink-caret .50s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: white; }
+  }
+  #Education{
+   
+  
+    display: inline-block;
+
+  }
+  .Educationleft {
+    margin: 30px 7px;
+    width: 100%;
+    color: aliceblue;
+}
+.fulltime {
+
+        color: aliceblue;
+        border: 3px solid wheat;
+        border-radius: 25px;
+        height: 650px;
+        width: 94%;
+    
+}
+#Education h1 {
+
+    font-size: 0.8rem;
+
+
+
+}
+.intern{
+    width: 94%;
+
+}
+.Educationleft li {
+    text-align: start;
+    line-height: 1.3rem;
+}
+#Education h1{
+    font-size: 1 rem;
+}
+.college {
+    color: aliceblue;
+    border: 3px solid wheat;
+    border-radius: 25px;
+    height: 260px;
+    width: 95%;
+    margin-left: 4px;
+}
+
+  .Educationright{
+    width: 100%;
+
+  }
+  #Education h2{
+    text-align: center;
+  }
+
+    
+
+}
